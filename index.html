@@ -4,40 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Simulador</title>
 </head>
 
 <body>
-    <header>
+    <header class="bloco">
         <div id="block-main">
-            <img src="#" alt="main-logo">
+            <img src="/assets/images/fineace-logo.svg" alt="main-logo">
         </div>
         <nav id="block-nav">
-            <ul>
+            <ul id="block-nav-list">
                 <li class="nav-item">Home</li>
                 <li class="nav-item">Product</li>
                 <li class="nav-item">Industries</li>
                 <li class="nav-item">About</li>
             </ul>
         </nav>
-        <div id="block-login-signup">
-            <button>Sign In</button>
-            <button>Sign Up</button>
+        <div id="block-signin-signup">
+            <button id="block-signin-signup-btn-signin">Sign In</button>
+            <button id="block-signin-signup-btn-signup">Sign Up</button>
         </div>
     </header>
 
     <section id="banner">
         <div id="banner-block-1">
-            <img src="#" alt="#">
+            <img src="/assets/images/main-img-banner.png" alt="main-img-banner">
         </div>
         <div id="banner-block-2">
-            <h1>Managing  investment has never been easier</h1>
-            <p>Investment management refers to the handling of financial assets and other investments—not only buying and selling them.</p>
-            <button>Let's Get a Rich</button>
-            <p>Registered and supervised by:</p>
-            <div>
-                <img src="#" alt="#">
-                <img src="#" alt="#">
+            <div id="banner-block-2-unit-1"> 
+                <h1>Managing  investment has never been easier</h1>
+                <p>Investment management refers to the handling of financial assets and other investments—not only buying and selling them.</p>
+            </div>
+            <div id="banner-block-2-unit-2">
+                <button id="banner-block-2-unit-2-btn">Let's Get a Rich</button>
+            </div>
+            <div id="banner-block-2-unit-3">
+                <p>Registered and supervised by:</p>
+            </div>
+            <div id="banner-block-2-unit-4">
+                <img src="/assets/images/idx.svg" alt="idx-img">
+                <img src="/assets/images/ojk.svg" alt="ojk-img">
             </div>
         </div>
     </section>
@@ -53,7 +60,7 @@
                 </div>
             </div>
             <div id="sec-1-block-1-area-2">
-                <div>
+                <div id="sec-1-block-1-area-2-unit-1">
                     <p>
                     Our technology suite is engineered to support diverse
                     business needs on-demand. Our communal culture,
@@ -61,37 +68,54 @@
                     paves the way for unprecedented customer support.
                     </p>
                 </div>
-                <div>
-                    <button>Explore</button>
-                    <img src="#" alt="#">
+                <div id="sec-1-block-1-area-2-unit-2">
+                    <button id="sec-1-block-1-area-2-unit-2-btn">Explore<span id="sec-1-block-1-area-2-unit-2-span">&#10132</span></button>
                 </div>
             </div>
         </div>
         <div id="sec-1-block-2">
             <div id="sec-1-block-2-area-1">
-                <div>
-                    <img src="#" alt="#">
-                    <h3>Saving more money easily</h3>
-                    <p>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
+                <div class="sec-1-block-2-area-1-units">
+                    <div class="sec-1-block-2-area-1-units-sub-1">
+                        <div>
+                            <img src="/assets/images/sec-1-img-1.png" alt="#" class="sec-1-block-2-area-1-units-img">
+                            <div class="sec-1-block-2-area-1-units-sub-2">
+                                <h3>Saving more money easily</h3>
+                                <p>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
+                            </div>
+                        </div>
+                    </div>
                     <span class="line-divider"></span>
                 </div>
-                <div>
-                    <img src="#" alt="#">
-                    <h3>Get your dream target</h3>
-                    <p>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
+                <div class="sec-1-block-2-area-1-units">
+                    <div class="sec-1-block-2-area-1-units-sub-1">
+                        <div>
+                            <img src="/assets/images/sec-1-img-2.png" alt="#" class="sec-1-block-2-area-1-units-img">
+                            <div class="sec-1-block-2-area-1-units-sub-2">
+                                <h3>Get your dream target</h3>
+                                <p>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
+                            </div>
+                        </div>
+                    </div>
                     <span class="line-divider"></span>
                 </div>
-                <div>
-                    <img src="#" alt="#">
-                    <h3>Effective and efficient</h3>
-                    <p>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
+                <div class="sec-1-block-2-area-1-units">
+                    <div class="sec-1-block-2-area-1-units-sub-1">
+                        <div>
+                            <img src="/assets/images/sec-1-img-3.png" alt="#" class="sec-1-block-2-area-1-units-img">
+                            <div class="sec-1-block-2-area-1-units-sub-2">
+                                <h3>Effective and efficient</h3>
+                                <p>we can help you save more money and keep you on your toes. by investing your funds, the money you have today can be more useful.</p>
+                            </div>
+                        </div>
+                    </div>
                     <span class="line-divider"></span>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="sec-2">
+    <section id="sec-2" class="bloco">
         <div id="sec-2-block-1">
             <div id="sec-2-block-1-area-1">
                 <h2>We're Global</h2>
@@ -120,7 +144,7 @@
         </div>
     </section>
 
-    <section id="sec-3">
+    <section id="sec-3" class="bloco">
         <div id="sec-3-block-1">
             <div id="sec-3-block-1-area-1">
                 <h2>What We Do</h2>
@@ -170,7 +194,7 @@
         </div>
     </section>
 
-    <section id="sec-4">
+    <section id="sec-4" class="bloco">
         <div id="sec-4-block-1">
             <div id="sec-4-block-1-area-1">
                 <h2>Blog</h2>
@@ -226,7 +250,7 @@
         </div>
     </section>
 
-    <section id="subscribe">
+    <section id="subscribe" class="bloco">
         <div id="subscribe-block-1">
             <div id="subscribe-block-1-area-1">
                 <h3>Subscribe</h3>
@@ -249,7 +273,7 @@
         </div>
     </section>
     
-    <footer>
+    <footer class="bloco">
         <div id="footer-block-1">
             <div id="footer-block-1-area-1">
                 <img src="#" alt="#">
@@ -292,7 +316,6 @@
     <section id="copyright">
         <p>Copyright @Fineace 2022. All Rights Reserved.</p>
     </section>
-
 </body>
 
 </html>
