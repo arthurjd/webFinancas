@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&family=Urbanist:wght@600;700&display=swap');
 
 * {
     margin: 0px;
@@ -7,4 +7,20 @@
 
 :root {
     --main-font: ;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    --Black: #000000;
+    --White: #FAFBFF;
+    --Neutral-400: #999999;
+    --Neutral-50:  #F2F2F2;
+    --Neutral-500: #808080;
+    --Neutral-700: #4D4D4D;
+    --Neutral-900: #1A1A1A;
+    --Neutral-950: #0D0D0D;
+    --Primary-1-50: #FFF3E5;
+    --Primary-1-500: #FB8600;
+    --Primary-1-950: #1A0E00;
+    --Primary-2-300: #FF8A66;
+    --Primary-2-50: #FFEBE5;
+    --Primary-2-500: #FF450D;
 }
